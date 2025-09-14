@@ -59,7 +59,7 @@ const About = ({isDarkMode}) => {
                initial = {{opacity:0,scale:0.9}} 
                whileInView = {{opacity:1,y:0}} 
                transition={{duration:0.6,delay:0.8}}  
-               className='flex items-center gap-4 sm-gap-5'>
+               className='flex items-center gap-4 sm-gap-7'>
                   {toolsData.map((tool,index)=>(
                     <li key={index} className='flex items-center justify-center w-12 sm:w-9 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500'>
                         <Image src={tool} alt="" className='w-3 sm:w-6'/>
@@ -75,3 +75,4 @@ const About = ({isDarkMode}) => {
 }
 
 export default About
+
