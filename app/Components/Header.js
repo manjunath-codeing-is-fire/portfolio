@@ -25,7 +25,7 @@ const Header = () => {
             initial = {{y:-30,opacity:0}} 
             whileInView = {{y:0,opacity:1}} 
             transition={{duration:0.8, delay:0.5}}  
-            className='text-4xl sm:text-6xl lg:text-[35px] font-Ovo'>Frontend developer in India.</motion.h1>
+            className='text-6xl sm:text-6xl lg:text-[35px] font-Ovo'>Frontend developer in India.</motion.h1>
 
             <motion.p
             initial = {{y:-20,opacity:0}} 
@@ -58,4 +58,5 @@ const Header = () => {
 
 
 export default Header
+
 
