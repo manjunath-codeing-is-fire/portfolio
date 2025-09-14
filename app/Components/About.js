@@ -62,7 +62,7 @@ const About = ({isDarkMode}) => {
                className='flex items-center gap-4 sm-gap-7'>
                   {toolsData.map((tool,index)=>(
                     <li key={index} className='flex items-center justify-center w-12 sm:w-9 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500'>
-                        <Image src={tool} alt="" className='w-3 sm:w-6'/>
+                        <Image src={tool} alt="" className='w-5 sm:w-6'/>
                     </li>
                   ))}
                </motion.ul>
@@ -75,4 +75,5 @@ const About = ({isDarkMode}) => {
 }
 
 export default About
+
 
