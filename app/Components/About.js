@@ -39,7 +39,7 @@ const About = ({isDarkMode}) => {
           className='flex-1'>
                <p className='mb-10 max-w-7xl font-Ovo text-3xl'>I am an experienced Frontend Developer with over a decade of professional expertise in the field. Through my career, I have had the privilege of collaborating with prestigious organizations, contributing to their success and growth.</p>
 
-              {/* Language , Education , Projects */}
+              {/* Language , Education , Projects 1*/}
                <motion.ul className='text-xs grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-5xl'>
                   {infoList.map(({icon,iconDark,title,description},index)=>(
                         <li key={index} className='border-[0.5px] border-gray-400 rounded-xl h-56 cursor-pointer hover:-translate-y-1 hover:shadow-[3px_3px_0_#000] ] duration-500 p-3 dark:border-white dark:hover:shadow-white dark:hover:bg-[#2a004a]/50'>
