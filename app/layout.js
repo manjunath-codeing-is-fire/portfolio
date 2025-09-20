@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 import { Outfit, Ovo } from "next/font/google";
-=======
-import { Outfit,Ovo } from "next/font/google";
->>>>>>> 156553d4870ec6e93b3fb8ebb640fcda7fd2e94d
 import "./globals.css";
 
 const outfit = Outfit({
@@ -24,12 +20,9 @@ export const metadata = {
 const RootLayout = ({ children }) => {
   return (
     <html lang="en" className="scroll-smooth dark">
-<<<<<<< HEAD
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </head>
-=======
->>>>>>> 156553d4870ec6e93b3fb8ebb640fcda7fd2e94d
       <body
         className={`${outfit.className} ${ovo.className} antialiased leading-8 overflow-x-hidden dark:bg-[#11001F] dark:text-white`}>
         {children}
